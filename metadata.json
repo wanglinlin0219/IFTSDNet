@@ -1,0 +1,18 @@
+{
+  "patch_size": 10,
+  "augmentation": true,
+  "num_gpus": 1,
+  "num_workers": 0,
+  "num_channel": 3,
+  "EF": false,
+  "epochs": 90,
+  "batch_size": 2,
+  "learning_rate": 1e-3,
+  "loss_function": "hybrid",
+  "dataset_dir": "H:/MT/ChangeDetectionRepository-master/Dataset/LEVIR_CD/",
+  "weight_dir": "./outputs/",
+  "log_dir": "./log/",
+  "use_boundary_2": "use_boundary_2",
+  "use_boundary_4": "use_boundary_4",
+  "use_boundary_8": "use_boundary_8"
+}
